@@ -5,8 +5,8 @@ I personnally use in vim.
 
 The following plugin are available:
 
-- [FZF](https://github.com/junegunn/fzf): Fuzzy Finder for quick file search
-  and open.
+- [FZF](https://github.com/junegunn/fzf): Fuzzy Finder for quick file search.
+- [FZF](https://github.com/junegunn/fzf.vim): _FZF_ enhancements
 
 ## Prerequisite
 
@@ -36,7 +36,10 @@ git clone --recurse-submodules git@github.com:OragonEfreet/vimpack.git
 ### Fuzzy Finder
 
 Fuzzy Finder by _FZF_ uses _ripgrep_ to search files.
-The shortcut is `<C-p>`.
 At first use, _FZF_ will search for the `fzf` executable.
 If not found, it will prompt for automatic build.
+
+| Shortcut | Command | Description |
+|----------|---------|-------------|
+| `<C-p>`  | :FZF    | Runs FZF    |
 
