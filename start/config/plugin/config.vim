@@ -9,8 +9,8 @@ let mapleader=","
 filetype plugin on
 filetype indent on
 
-"set relativenumber
-"set number
+set relativenumber
+set number
 syntax on
 
 " Whitespace
@@ -31,4 +31,7 @@ noremap <Down> <Nop>
 noremap <Left> <Nop>
 noremap <Right> <Nop>
 
+" FZF
+nnoremap <C-p> :<C-u>FZF<CR>
+let $FZF_DEFAULT_COMMAND = 'rg --files'
 
