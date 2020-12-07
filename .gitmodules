@@ -19,3 +19,9 @@
 [submodule "start/vim-easy-align"]
 	path = start/vim-easy-align
 	url = git@github.com:junegunn/vim-easy-align.git
+[submodule "start/gruvbox"]
+	path = start/gruvbox
+	url = https://github.com/morhetz/gruvbox.git
+[submodule "start/vim-airline-themes"]
+	path = start/vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes.git
