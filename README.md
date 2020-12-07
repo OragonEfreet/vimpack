@@ -42,7 +42,7 @@ submodules:
 ```
 mkdir -p ~/.vim
 cd ~/.vim
-git clone --recurse-submodules git@github.com:OragonEfreet/vimpack.git
+git clone --recurse-submodules https://github.com/OragonEfreet/vimpack.git
 ```
 
 ## Usage

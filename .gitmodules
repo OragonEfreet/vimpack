@@ -1,18 +1,18 @@
 [submodule "start/fzf"]
 	path = start/fzf
-	url = git@github.com:junegunn/fzf
+	url = https://github.com/junegunn/fzf.git
 [submodule "start/fzf.vim"]
 	path = start/fzf.vim
-	url = git@github.com:junegunn/fzf.vim
+	url = https://github.com/junegunn/fzf.vim.git
 [submodule "start/nerdtree"]
 	path = start/nerdtree
-	url = git@github.com:preservim/nerdtree.git
+	url = https://github.com/preservim/nerdtree.git
 [submodule "start/ale"]
 	path = start/ale
-	url = git@github.com:dense-analysis/ale.git
+	url = https://github.com/dense-analysis/ale.git
 [submodule "start/rust.vim"]
 	path = start/rust.vim
-	url = git@github.com:rust-lang/rust.vim.git
+	url = https://github.com/rust-lang/rust.vim.git
 [submodule "start/vim-airline"]
 	path = start/vim-airline
-	url = git@github.com:vim-airline/vim-airline.git
+	url = https://github.com/vim-airline/vim-airline.git
