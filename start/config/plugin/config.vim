@@ -5,6 +5,7 @@
 " VIM 
 set nocompatible
 let mapleader=","
+set visualbell
 
 filetype plugin on
 filetype indent on
@@ -16,7 +17,7 @@ syntax on
 " Whitespace
 set nowrap
 set textwidth=79
-set formatoptions=tcqrn1
+set formatoptions=cqn1
 set tabstop=2
 set shiftwidth=2
 set softtabstop=2
@@ -24,8 +25,8 @@ set expandtab
 set noshiftround
 
 " Bindings
-" In normal mode, remove arrow keys.
-" The reason is that I am still new using vim and I want me to try hjkl
+" In normal mode, remove arrow keys.  The reason is that I am still new using
+" vim and I want me to try hjkl
 noremap <Up> <Nop>
 noremap <Down> <Nop>
 noremap <Left> <Nop>
@@ -56,3 +57,10 @@ call NERDTreeHighlightFile('toml', 'yellow', 'none', 'yellow', '#151515')
 call NERDTreeHighlightFile('conf', 'yellow', 'none', 'yellow', '#151515')
 call NERDTreeHighlightFile('json', 'yellow', 'none', 'yellow', '#151515')
 
+" ALE
+let g:ale_linters = {'rust': ['analyzer']}
+let g:ale_fixers = {'rust': ['rustfmt']}
+let g:rustfmt_autosave = 1
+
+nnoremap <Leader>cb :Cbuild<CR>
+nnoremap <Leader>cc :Ccheck<CR>

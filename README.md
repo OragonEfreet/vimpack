@@ -6,18 +6,23 @@ I personnally use in vim.
 The following plugin are available:
 
 - [FZF](https://github.com/junegunn/fzf): Fuzzy Finder for quick file search.
-- [FZF](https://github.com/junegunn/fzf.vim): _FZF_ enhancements
+- [FZF.vim](https://github.com/junegunn/fzf.vim): _FZF_ enhancements
+- [NERDTree](https://github.com/preservim/nerdtree): File explorer
+- [ALE](https://github.com/dense-analysis/ale): Linter on top of _RLS_ (with _Rust Analyzer_)
+- [Rust.vim](https://github.com/rust-lang/rust.vim): Provides Rust files detection, syntax, formatting, and more.
 
 ## Prerequisite
 
 My configuration file has a few prerequisites:
 
 - [ripgrep](https://github.com/BurntSushi/ripgrep): _FZF_ uses it
+- [Rust Analyzer](https://github.com/rust-analyzer/rust-analyzer): Rust
+  compiler front end (RLS protocol)
 
 
 Arch Linux:
 ```
-pacman -S ripgrep
+pacman -S ripgrep rust-analyzer
 ```
 
 ## Installation
@@ -33,13 +38,20 @@ git clone --recurse-submodules git@github.com:OragonEfreet/vimpack.git
 
 ## Usage
 
-### Fuzzy Finder
 
-Fuzzy Finder by _FZF_ uses _ripgrep_ to search files.
+### Shortcuts
+
+|     Shortcut |           Command |                      Description |
+|--------------|-------------------|----------------------------------|
+| `<C-p>`      |              :FZF |                         Runs FZF |
+| `<Leader>k`  |   :NERDTreeToggle |     Open/Close the file explorer |
+
+### FZF
+
 At first use, _FZF_ will search for the `fzf` executable.
 If not found, it will prompt for automatic build.
 
-| Shortcut | Command | Description |
-|----------|---------|-------------|
-| `<C-p>`  | :FZF    | Runs FZF    |
+### NERDTree
 
+The file explorer automatically opens when vim started on a folder.
+Otherwise, use `<Leader>k` to open or close it.

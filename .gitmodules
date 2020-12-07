@@ -7,3 +7,9 @@
 [submodule "start/nerdtree"]
 	path = start/nerdtree
 	url = git@github.com:preservim/nerdtree.git
+[submodule "start/ale"]
+	path = start/ale
+	url = git@github.com:dense-analysis/ale.git
+[submodule "start/rust.vim"]
+	path = start/rust.vim
+	url = git@github.com:rust-lang/rust.vim.git
