@@ -17,6 +17,8 @@ The following plugin are available:
 
 ## Prerequisite
 
+You will obviously need [Rust](https://www.rust-lang.org/tools/install).
+
 My configuration file has a few prerequisites:
 
 - [ripgrep](https://github.com/BurntSushi/ripgrep): _FZF_ uses it
