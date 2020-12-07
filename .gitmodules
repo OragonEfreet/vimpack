@@ -16,3 +16,6 @@
 [submodule "start/vim-airline"]
 	path = start/vim-airline
 	url = https://github.com/vim-airline/vim-airline.git
+[submodule "start/vim-easy-align"]
+	path = start/vim-easy-align
+	url = git@github.com:junegunn/vim-easy-align.git

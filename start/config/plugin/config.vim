@@ -32,6 +32,12 @@ noremap <Down> <Nop>
 noremap <Left> <Nop>
 noremap <Right> <Nop>
 
+" Navigating through buffers and tabs
+noremap <C-k> :bnext<CR>
+"noremap <C-K> :tabnext<CR>
+noremap <C-j> :bprev<CR>
+"noremap <C-J> :tabprev<CR>
+
 " FZF
 nnoremap <C-p> :<C-u>FZF<CR>
 let $FZF_DEFAULT_COMMAND = 'rg --files'
@@ -71,3 +77,6 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#formatter = 'unique_tail'
 let g:airline_powerline_fonts = 1
 
+" EasyAlign
+xmap <Leader>a <Plug>(EasyAlign)
+nmap <Leader>a <Plug>(EasyAlign)

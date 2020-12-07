@@ -13,6 +13,7 @@ The following plugin are available:
 - [ALE](https://github.com/dense-analysis/ale): Linter on top of _RLS_ (with _Rust Analyzer_)
 - [Rust.vim](https://github.com/rust-lang/rust.vim): Provides Rust files detection, syntax, formatting, and more.
 - [vim-airline](https://github.com/vim-airline/vim-airline): Status bar displaying useful informations
+- [vim-easy-align](https://github.com/junegunn/vim-easy-align): A simple, easy-to-use Vim alignment plugin
 
 ## Prerequisite
 
@@ -49,13 +50,16 @@ git clone --recurse-submodules https://github.com/OragonEfreet/vimpack.git
 
 ### Shortcuts
 
-|      Shortcut |           Command |                      Description |
-|---------------|-------------------|----------------------------------|
-| `<C-p>`       |              :FZF |                         Runs FZF |
-| `<Leader>k`   |   :NERDTreeToggle |     Open/Close the file explorer |
-| `<Leader>cc`  |           :Ccheck |     Run `cargo check` |
-| `<Leader>cb`  |           :Cbuild |     Run `cargo build` |
-| `<Leader>ct`  |            :Ctest |     Run `cargo test` |
+| Shortcut        | Command             | Description                        |
+| --------------- | ------------------- | ---------------------------------- |
+| `<C-p>`         | `:FZF`              | Runs FZF                           |
+| `<Leader>k`     | `:NERDTreeToggle`   | Open/Close the file explorer       |
+| `<Leader>cc`    | `:Ccheck`           | Run `cargo check`                  |
+| `<Leader>cb`    | `:Cbuild`           | Run `cargo build`                  |
+| `<Leader>ct`    | `:Ctest`            | Run `cargo test`                   |
+| `<C-k>`         | `:bnext`            | Jump to the next buffer            |
+| `<C-j>`         | `:bprev`            | Jump to the previous buffer        |
+| `<Leader>a`     | `<Plug>(EasyAlign)` | Enter _EasyAlign_ interactive mode |
 
 ### FZF
 
@@ -66,3 +70,11 @@ If not found, it will prompt for automatic build.
 
 The file explorer automatically opens when vim started on a folder.
 Otherwise, use `<Leader>k` to open or close it.
+
+### EasyAlign
+
+_EasyAlign_ allows quick vertical alignment of text.
+The main shortcut, `<Leader>a`, works in two modes:
+- Visually select a block and enter interactive mode (example: `vip<Leader>a`)
+- or call _EasyAlign_ then select the motion to apply on (example:
+  `<Leader>aip`) 
