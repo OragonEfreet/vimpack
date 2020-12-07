@@ -4,15 +4,6 @@
 [submodule "start/fzf.vim"]
 	path = start/fzf.vim
 	url = git@github.com:junegunn/fzf.vim
-[submodule "start/rust.vim"]
-	path = start/rust.vim
-	url = git@github.com:rust-lang/rust.vim
-[submodule "start/syntastic"]
-	path = start/syntastic
-	url = git@github.com:vim-syntastic/syntastic
-[submodule "start/tagbar"]
-	path = start/tagbar
-	url = git@github.com:preservim/tagbar
 [submodule "start/nerdtree"]
 	path = start/nerdtree
 	url = git@github.com:preservim/nerdtree.git
