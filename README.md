@@ -27,15 +27,17 @@ My configuration file has a few prerequisites:
 - [Powerline fonts](https://github.com/powerline/fonts): Used by vim-airline
 
 
-Arch Linux:
+### Arch Linux:
 ```
 pacman -S ripgrep rust-analyzer powerline-fonts
 ```
-Ubuntu:
+### Ubuntu:
 ```
 apt install fonts-powerline ripgrep
 snap install --edge rust-analyzer
 ```
+
+### Specifics
 
 > Installing Rust Analyzer may differ from your environment (for example Ubuntu/WSL does not support snap yet).
 > You may want to install from sources instead:
