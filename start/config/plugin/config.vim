@@ -64,8 +64,10 @@ let g:rustfmt_autosave = 1
 
 nnoremap <Leader>cb :Cbuild<CR>
 nnoremap <Leader>cc :Ccheck<CR>
+nnoremap <Leader>ct :Ctest<CR>
 
 " Airline
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#formatter = 'unique_tail'
+let g:airline_powerline_fonts = 1
 

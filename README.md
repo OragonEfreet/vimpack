@@ -2,6 +2,8 @@
 
 This repository is a vim package that holds and configures all plugins
 I personnally use in vim.
+I mainly use vim as a Rust IDE, which oriented my choices of plugins and
+settings.
 
 The following plugin are available:
 
@@ -19,11 +21,12 @@ My configuration file has a few prerequisites:
 - [ripgrep](https://github.com/BurntSushi/ripgrep): _FZF_ uses it
 - [Rust Analyzer](https://github.com/rust-analyzer/rust-analyzer): Rust
   compiler front end (RLS protocol)
+- [Powerline fonts](https://github.com/powerline/fonts): Used by vim-airline
 
 
 Arch Linux:
 ```
-pacman -S ripgrep rust-analyzer
+pacman -S ripgrep rust-analyzer powerline-fonts
 ```
 
 ## Installation
@@ -42,10 +45,13 @@ git clone --recurse-submodules git@github.com:OragonEfreet/vimpack.git
 
 ### Shortcuts
 
-|     Shortcut |           Command |                      Description |
-|--------------|-------------------|----------------------------------|
-| `<C-p>`      |              :FZF |                         Runs FZF |
-| `<Leader>k`  |   :NERDTreeToggle |     Open/Close the file explorer |
+|      Shortcut |           Command |                      Description |
+|---------------|-------------------|----------------------------------|
+| `<C-p>`       |              :FZF |                         Runs FZF |
+| `<Leader>k`   |   :NERDTreeToggle |     Open/Close the file explorer |
+| `<Leader>cc`  |           :Ccheck |     Run `cargo check` |
+| `<Leader>cb`  |           :Cbuild |     Run `cargo build` |
+| `<Leader>ct`  |            :Ctest |     Run `cargo test` |
 
 ### FZF
 
