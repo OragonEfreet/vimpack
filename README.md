@@ -7,11 +7,13 @@ settings.
 
 The following plugin are available:
 
-- [FZF](https://github.com/junegunn/fzf): Fuzzy Finder for quick file search.
-- [FZF.vim](https://github.com/junegunn/fzf.vim): _FZF_ enhancements
-- [NERDTree](https://github.com/preservim/nerdtree): File explorer
 - [ALE](https://github.com/dense-analysis/ale): Linter on top of _RLS_ (with _Rust Analyzer_)
+- [FZF.vim](https://github.com/junegunn/fzf.vim): _FZF_ enhancements
+- [FZF](https://github.com/junegunn/fzf): Fuzzy Finder for quick file search.
+- [gruvbox](https://github.com/morhetz/gruvbox): The famous theme by Pavel Pertsev
+- [NERDTree](https://github.com/preservim/nerdtree): File explorer
 - [Rust.vim](https://github.com/rust-lang/rust.vim): Provides Rust files detection, syntax, formatting, and more.
+- [vim-airline-theme](https://github.com/vim-airline/vim-airline-themes): Set of themes for vim-airline.
 - [vim-airline](https://github.com/vim-airline/vim-airline): Status bar displaying useful informations
 - [vim-easy-align](https://github.com/junegunn/vim-easy-align): A simple, easy-to-use Vim alignment plugin
 

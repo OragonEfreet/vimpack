@@ -78,11 +78,13 @@ nnoremap <Leader>ct :Ctest<CR>
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#formatter = 'unique_tail'
 let g:airline_powerline_fonts = 1
-"let g:airline_theme='gruvbox'
+let g:airline_theme='gruvbox'
 
 " EasyAlign
 xmap <Leader>a <Plug>(EasyAlign)
 nmap <Leader>a <Plug>(EasyAlign)
 
 " Gruvbox
+colorscheme gruvbox
 set background=dark    " Setting dark mode 
+
