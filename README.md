@@ -37,6 +37,14 @@ apt install fonts-powerline ripgrep
 snap install --edge rust-analyzer
 ```
 
+> Installing Rust Analyzer may differ from your environment (for example Ubuntu/WSL does not support snap yet).
+> You may want to install from sources instead:
+> ```
+> git clone https://github.com/rust-analyzer/rust-analyzer.git && cd rust-analyzer
+> cargo xtask install
+> ```
+> For more information, check out [the installation guide](https://rust-analyzer.github.io/manual.html#installation).
+
 ## Installation
 
 With Vim 8.0 or later, go to `~/.vim` and clone the repository along with
