@@ -10,6 +10,7 @@ The following plugin are available:
 - [NERDTree](https://github.com/preservim/nerdtree): File explorer
 - [ALE](https://github.com/dense-analysis/ale): Linter on top of _RLS_ (with _Rust Analyzer_)
 - [Rust.vim](https://github.com/rust-lang/rust.vim): Provides Rust files detection, syntax, formatting, and more.
+- [vim-airline](https://github.com/vim-airline/vim-airline): Status bar displaying useful informations
 
 ## Prerequisite
 

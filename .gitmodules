@@ -13,3 +13,6 @@
 [submodule "start/rust.vim"]
 	path = start/rust.vim
 	url = git@github.com:rust-lang/rust.vim.git
+[submodule "start/vim-airline"]
+	path = start/vim-airline
+	url = git@github.com:vim-airline/vim-airline.git
