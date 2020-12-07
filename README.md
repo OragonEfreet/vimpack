@@ -28,6 +28,11 @@ Arch Linux:
 ```
 pacman -S ripgrep rust-analyzer powerline-fonts
 ```
+Ubuntu:
+```
+apt install fonts-powerline ripgrep
+snap install --edge rust-analyzer
+```
 
 ## Installation
 
