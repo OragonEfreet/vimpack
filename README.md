@@ -40,8 +40,7 @@ With Vim 8.0 or later, go to `~/.vim` and clone the repository along with
 submodules:
 
 ```
-mkdir -p ~/.vim
-cd ~/.vim
+mkdir -p ~/.vim/pack && cd ~/.vim/pack
 git clone --recurse-submodules https://github.com/OragonEfreet/vimpack.git
 ```
 
