@@ -5,6 +5,8 @@ I personnally use in vim.
 I mainly use vim as a Rust IDE, which oriented my choices of plugins and
 settings.
 
+![showcase](showcase.png)
+
 The following plugin are available:
 
 - [ALE](https://github.com/dense-analysis/ale): Linter on top of _RLS_ (with _Rust Analyzer_)
@@ -48,8 +50,6 @@ snap install --edge rust-analyzer
 > cargo xtask install
 > ```
 > For more information, check out [the installation guide](https://rust-analyzer.github.io/manual.html#installation).
-
-![showcase](showcase.png)
 
 ## Installation
 
