@@ -49,6 +49,8 @@ snap install --edge rust-analyzer
 > ```
 > For more information, check out [the installation guide](https://rust-analyzer.github.io/manual.html#installation).
 
+![showcase](showcase.png)
+
 ## Installation
 
 With Vim 8.0 or later, go to `~/.vim` and clone the repository along with
