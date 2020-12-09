@@ -16,6 +16,13 @@ syntax on
 
 set termguicolors
 
+" Fix for alacritty
+if &term == "alacritty"        
+  let &term = "xterm-256color"
+endif
+"let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
+"let &t_8b = "\<Esc>[48:2;%lu;%lu;%lum"
+
 " Whitespace
 set nowrap
 set textwidth=79
@@ -35,14 +42,20 @@ noremap <Left> <Nop>
 noremap <Right> <Nop>
 
 " Navigating through buffers and tabs
-noremap <C-k> :bnext<CR>
+nnoremap <C-k> :bnext<CR>
 "noremap <C-K> :tabnext<CR>
-noremap <C-j> :bprev<CR>
+nnoremap <C-j> :bprev<CR>
 "noremap <C-J> :tabprev<CR>
 
-" FZF
-nnoremap <C-p> :<C-u>FZF<CR>
+" FZF and FZF.vim
+nnoremap <C-p> :<C-u>Files<CR>
+"nnoremap <C-P> :<C-u>Commands<CR>
+nnoremap <Leader>pg :<C-u>GFiles?<CR>
+nnoremap <Leader>pb :<C-u>Buffers?<CR>
+nnoremap <Leader>pf :<C-u>:Rg<CR>
+vnoremap <Leader>pf y:Rg <C-R>"<CR>
 let $FZF_DEFAULT_COMMAND = 'rg --files'
+
 
 " Nerdtree
 autocmd StdinReadPre * let s:std_in=1
@@ -69,7 +82,13 @@ call NERDTreeHighlightFile('json', 'yellow', 'none', 'yellow', '#151515')
 let g:ale_linters = {'rust': ['analyzer']}
 let g:ale_fixers = {'rust': ['rustfmt']}
 let g:rustfmt_autosave = 1
+let g:ale_completion_enabled = 1
+let g:ale_hover_to_preview = 0
 
+nnoremap <Leader>gd :<C-u>ALEGoToDefinition<CR>
+"nnoremap <Leader><Space> :<C-u>ALEHover<CR>
+
+" rust.vim
 nnoremap <Leader>cb :Cbuild<CR>
 nnoremap <Leader>cc :Ccheck<CR>
 nnoremap <Leader>ct :Ctest<CR>
@@ -79,6 +98,8 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#formatter = 'unique_tail'
 let g:airline_powerline_fonts = 1
 let g:airline_theme='gruvbox'
+let g:ale_hover_cursor = 1
+let g:ale_set_balloons = 1
 
 " EasyAlign
 xmap <Leader>a <Plug>(EasyAlign)
@@ -87,4 +108,6 @@ nmap <Leader>a <Plug>(EasyAlign)
 " Gruvbox
 colorscheme gruvbox
 set background=dark    " Setting dark mode 
+
+
 

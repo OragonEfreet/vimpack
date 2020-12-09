@@ -66,16 +66,22 @@ git clone --recurse-submodules https://github.com/OragonEfreet/vimpack.git
 
 ### Shortcuts
 
-| Shortcut        | Command             | Description                        |
-| --------------- | ------------------- | ---------------------------------- |
-| `<C-p>`         | `:FZF`              | Runs FZF                           |
-| `<Leader>k`     | `:NERDTreeToggle`   | Open/Close the file explorer       |
-| `<Leader>cc`    | `:Ccheck`           | Run `cargo check`                  |
-| `<Leader>cb`    | `:Cbuild`           | Run `cargo build`                  |
-| `<Leader>ct`    | `:Ctest`            | Run `cargo test`                   |
-| `<C-k>`         | `:bnext`            | Jump to the next buffer            |
-| `<C-j>`         | `:bprev`            | Jump to the previous buffer        |
-| `<Leader>a`     | `<Plug>(EasyAlign)` | Enter _EasyAlign_ interactive mode |
+| Shortcut        | N | I | V | S | C | O | Command                       | Description                        |
+| --------------- | - | - | - | - | - | - | -------------------           | ---------------------------------- |
+| `<C-p>`         | X |   |   |   |   |   | `:<C-u>Files<CR>`             | Open file finder                   |
+| `<Leader>k`     | X |   |   |   |   |   | `:NERDTreeToggle`             | Open/Close the file explorer       |
+| `<Leader>cc`    | X |   |   |   |   |   | `:Ccheck`                     | Run `cargo check`                  |
+| `<Leader>cb`    | X |   |   |   |   |   | `:Cbuild`                     | Run `cargo build`                  |
+| `<Leader>ct`    | X |   |   |   |   |   | `:Ctest`                      | Run `cargo test`                   |
+| `<C-k>`         | X |   |   |   |   |   | `:bnext`                      | Jump to the next buffer            |
+| `<C-j>`         | X |   |   |   |   |   | `:bprev`                      | Jump to the previous buffer        |
+| `<Leader>a`     | X | X |   |   |   |   | `<Plug>(EasyAlign)`           | Enter _EasyAlign_ interactive mode |
+| `<Leader>pg`    | X |   |   |   |   |   | `:<C-u>GFiles?<CR>`           | Open git changes finder            |
+| `<Leader>pb`    | X |   |   |   |   |   | `:<C-u>Buffers?<CR>`          | Open buffers finder                |
+| `<Leader>pf`    | X |   | X |   |   |   | `:<C-u>:Rg<CR>`               | Open grep finder                   |
+| `<Leader>gd`    | X |   |   |   |   |   | `:<C-u>ALEGoToDefinition<CR>` | Jump to definition                 |
+| `<Leader>gr`    | X |   |   |   |   |   | `:<C-u>ALEFindReferences<CR>` | Find references                    |
+
 
 ### FZF
 
