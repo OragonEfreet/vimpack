@@ -73,6 +73,7 @@ git clone --recurse-submodules https://github.com/OragonEfreet/vimpack.git
 | `<Leader>cc`    | X |   |   |   |   |   | `:Ccheck`                     | Run `cargo check`                  |
 | `<Leader>cb`    | X |   |   |   |   |   | `:Cbuild`                     | Run `cargo build`                  |
 | `<Leader>ct`    | X |   |   |   |   |   | `:Ctest`                      | Run `cargo test`                   |
+| `<Leader>cf`    | X |   |   |   |   |   | `:RustFmt`                    | Run `cargo fmt`                    |
 | `<C-k>`         | X |   |   |   |   |   | `:bnext`                      | Jump to the next buffer            |
 | `<C-j>`         | X |   |   |   |   |   | `:bprev`                      | Jump to the previous buffer        |
 | `<Leader>a`     | X | X |   |   |   |   | `<Plug>(EasyAlign)`           | Enter _EasyAlign_ interactive mode |

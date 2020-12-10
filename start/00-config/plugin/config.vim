@@ -24,6 +24,7 @@ endif
 "let &t_8b = "\<Esc>[48:2;%lu;%lu;%lum"
 
 " Whitespace
+set colorcolumn=80
 set nowrap
 set textwidth=79
 set formatoptions=cqn1
@@ -91,6 +92,7 @@ nnoremap <Leader>gd :<C-u>ALEGoToDefinition<CR>
 " rust.vim
 nnoremap <Leader>cb :Cbuild<CR>
 nnoremap <Leader>cc :Ccheck<CR>
+nnoremap <Leader>cf :RustFmt<CR>
 nnoremap <Leader>ct :Ctest<CR>
 
 " Airline
