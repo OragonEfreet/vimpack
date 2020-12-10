@@ -12,7 +12,7 @@ filetype indent on
 
 set relativenumber
 set number
-syntax on
+syntax enable
 
 set termguicolors
 
@@ -99,7 +99,7 @@ nnoremap <Leader>ct :Ctest<CR>
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#formatter = 'unique_tail'
 let g:airline_powerline_fonts = 1
-let g:airline_theme='gruvbox'
+"let g:airline_theme='gruvbox'
 let g:ale_hover_cursor = 1
 let g:ale_set_balloons = 1
 
@@ -111,5 +111,8 @@ nmap <Leader>a <Plug>(EasyAlign)
 colorscheme gruvbox
 set background=dark    " Setting dark mode 
 
-
+" Dracula
+packadd! dracula
+colorscheme dracula
+let g:airline_theme='dracula'
 

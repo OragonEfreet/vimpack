@@ -25,3 +25,6 @@
 [submodule "start/vim-airline-themes"]
 	path = start/vim-airline-themes
 	url = https://github.com/vim-airline/vim-airline-themes.git
+[submodule "start/dracula"]
+	path = start/dracula
+	url = https://github.com/dracula/vim.git
