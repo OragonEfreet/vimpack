@@ -17,11 +17,13 @@ syntax enable
 set termguicolors
 
 " Fix for alacritty
-if &term == "alacritty"        
-  let &term = "xterm-256color"
+if &term == "xterm-kitty"        
+  set t_ut=
 endif
 "let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
 "let &t_8b = "\<Esc>[48:2;%lu;%lu;%lum"
+
+
 
 " Whitespace
 set colorcolumn=80
@@ -43,9 +45,9 @@ noremap <Left> <Nop>
 noremap <Right> <Nop>
 
 " Navigating through buffers and tabs
-nnoremap <C-k> :bnext<CR>
+nnoremap <C-k> :bnext!<CR>
 "noremap <C-K> :tabnext<CR>
-nnoremap <C-j> :bprev<CR>
+nnoremap <C-j> :bprev!<CR>
 "noremap <C-J> :tabprev<CR>
 
 " FZF and FZF.vim
