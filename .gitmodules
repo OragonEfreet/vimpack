@@ -28,3 +28,6 @@
 [submodule "start/dracula"]
 	path = start/dracula
 	url = https://github.com/dracula/vim.git
+[submodule "start/vim-sensible"]
+	path = start/vim-sensible
+	url = https://github.com/tpope/vim-sensible.git
