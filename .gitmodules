@@ -31,3 +31,6 @@
 [submodule "start/vim-sensible"]
 	path = start/vim-sensible
 	url = https://github.com/tpope/vim-sensible.git
+[submodule "start/vim-todo-lists"]
+	path = start/vim-todo-lists
+	url = https://github.com/aserebryakov/vim-todo-lists.git
