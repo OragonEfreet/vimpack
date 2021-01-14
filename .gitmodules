@@ -34,3 +34,6 @@
 [submodule "start/vim-todo-lists"]
 	path = start/vim-todo-lists
 	url = https://github.com/aserebryakov/vim-todo-lists.git
+[submodule "start/python-syntax"]
+	path = start/python-syntax
+	url = git@github.com:vim-python/python-syntax.git

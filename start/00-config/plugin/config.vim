@@ -13,6 +13,7 @@ filetype indent on
 set relativenumber
 set number
 syntax enable
+set cursorline
 
 set termguicolors
 
@@ -26,15 +27,17 @@ endif
 
 
 " Whitespace
+set ts=4           " Set tabs to 4 spaces
+set autoindent     " Keep indentation when writing
+set expandtab      " Expand tabs to spaces
+set shiftwidth=4   " Set << and >> moving 4 spaces each
 set colorcolumn=80
 set nowrap
-set textwidth=79
 set formatoptions=cqn1
-set tabstop=2
-set shiftwidth=2
-set softtabstop=2
-set expandtab
+set tabstop=4
+set softtabstop=4
 set noshiftround
+
 
 " Bindings
 " In normal mode, remove arrow keys.  The reason is that I am still new using
@@ -117,4 +120,7 @@ set background=dark    " Setting dark mode
 packadd! dracula
 colorscheme dracula
 let g:airline_theme='dracula'
+
+" Python Syntax
+let g:python_highlight_all = 1
 
