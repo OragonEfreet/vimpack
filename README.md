@@ -99,5 +99,4 @@ Otherwise, use `<Leader>k` to open or close it.
 _EasyAlign_ allows quick vertical alignment of text.
 The main shortcut, `<Leader>a`, works in two modes:
 - Visually select a block and enter interactive mode (example: `vip<Leader>a`)
-- or call _EasyAlign_ then select the motion to apply on (example:
-  `<Leader>aip`) 
+- or call _EasyAlign_ then select the motion to apply on (example: `<Leader>aip`)
