@@ -43,3 +43,6 @@
 [submodule "start/vim-toml"]
 	path = start/vim-toml
 	url = https://github.com/cespare/vim-toml.git
+[submodule "start/vim-surround"]
+	path = start/vim-surround
+	url = git@github.com:tpope/vim-surround.git
