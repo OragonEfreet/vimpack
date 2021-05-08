@@ -31,12 +31,6 @@
 [submodule "start/vim-todo-lists"]
 	path = start/vim-todo-lists
 	url = https://github.com/aserebryakov/vim-todo-lists.git
-[submodule "start/python-syntax"]
-	path = start/python-syntax
-	url = git@github.com:vim-python/python-syntax.git
-[submodule "start/vim-python-pep8-indent"]
-	path = start/vim-python-pep8-indent
-	url = git@github.com:Vimjas/vim-python-pep8-indent.git
 [submodule "start/vim-toml"]
 	path = start/vim-toml
 	url = https://github.com/cespare/vim-toml.git
