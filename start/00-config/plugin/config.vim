@@ -112,13 +112,11 @@ let g:ale_set_balloons = 1
 xmap <Leader>a <Plug>(EasyAlign)
 nmap <Leader>a <Plug>(EasyAlign)
 
-" Gruvbox
-colorscheme gruvbox
-set background=dark    " Setting dark mode 
 
 " Dracula
 packadd! dracula
 colorscheme dracula
+set background=dark    " Setting dark mode 
 let g:airline_theme='dracula'
 
 " Python Syntax
