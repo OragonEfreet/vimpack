@@ -46,3 +46,6 @@
 [submodule "start/vim-surround"]
 	path = start/vim-surround
 	url = git@github.com:tpope/vim-surround.git
+[submodule "start/typescript-vim"]
+	path = start/typescript-vim
+	url = git@github.com:leafgarland/typescript-vim.git
