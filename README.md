@@ -18,6 +18,7 @@ The following plugin are available:
 - [vim-airline-theme](https://github.com/vim-airline/vim-airline-themes): Set of themes for vim-airline (Dracula is used).
 - [vim-airline](https://github.com/vim-airline/vim-airline): Status bar displaying useful informations
 - [vim-easy-align](https://github.com/junegunn/vim-easy-align): A simple, easy-to-use Vim alignment plugin
+- [vim-repeat](git@github.com:tpope/vim-repeat.git): Use the `.` command with plugin remaps
 - [vim-sensible](https://github.com/tpope/vim-sensible): Vim defaults everyone can agree on
 - [vim-surround](https://github.com/tpope/vim-surround): Quoting/parenthesizing made simple 
 - [vim-todo-list](https://github.com/aserebryakov/vim-todo-lists): Vim plugin for TODO lists

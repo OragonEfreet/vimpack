@@ -40,3 +40,6 @@
 [submodule "start/typescript-vim"]
 	path = start/typescript-vim
 	url = git@github.com:leafgarland/typescript-vim.git
+[submodule "start/vim-repeat"]
+	path = start/vim-repeat
+	url = git@github.com:tpope/vim-repeat.git
