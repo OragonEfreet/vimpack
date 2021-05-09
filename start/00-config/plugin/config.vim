@@ -25,18 +25,19 @@ endif
 "let &t_8b = "\<Esc>[48:2;%lu;%lu;%lum"
 
 
-
 " Whitespace
-set ts=4           " Set tabs to 4 spaces
 set autoindent     " Keep indentation when writing
 set expandtab      " Expand tabs to spaces
-set shiftwidth=4   " Set << and >> moving 4 spaces each
 set colorcolumn=80
 set nowrap
 set formatoptions=cqn1
-set tabstop=4
-set softtabstop=4
 set noshiftround
+
+augroup FileTypeSpecificAutocommands
+    autocmd FileType javascript setlocal tabstop=2 softtabstop=2 shiftwidth=2
+    autocmd FileType typescript setlocal tabstop=2 softtabstop=2 shiftwidth=2
+    autocmd FileType rust setlocal tabstop=4 softtabstop=4 shiftwidth=4
+augroup END
 
 
 " Bindings
