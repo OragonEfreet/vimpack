@@ -35,6 +35,7 @@ set noshiftround
 
 augroup FileTypeSpecificAutocommands
     autocmd FileType javascript setlocal tabstop=2 softtabstop=2 shiftwidth=2
+    autocmd FileType json setlocal tabstop=2 softtabstop=2 shiftwidth=2
     autocmd FileType html setlocal syntax=xml tabstop=2 softtabstop=2 shiftwidth=2
     autocmd FileType typescript setlocal tabstop=2 softtabstop=2 shiftwidth=2
     autocmd FileType rust setlocal tabstop=4 softtabstop=4 shiftwidth=4
