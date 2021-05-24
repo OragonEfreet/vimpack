@@ -34,7 +34,7 @@ set formatoptions=cqn1
 set noshiftround
 
 augroup FileTypeSpecificAutocommands
-    autocmd FileType javascript setlocal tabstop=2 softtabstop=2 shiftwidth=2
+    autocmd FileType javascript setlocal syntax=typescript tabstop=2 softtabstop=2 shiftwidth=2
     autocmd FileType json setlocal tabstop=2 softtabstop=2 shiftwidth=2
     autocmd FileType html setlocal syntax=xml tabstop=2 softtabstop=2 shiftwidth=2
     autocmd FileType typescript setlocal tabstop=2 softtabstop=2 shiftwidth=2
@@ -124,4 +124,10 @@ let g:airline_theme='dracula'
 
 " Python Syntax
 let g:python_highlight_all = 1
+
+" Graphvis Plugin
+let g:graphviz_output_format = 'png'
+nnoremap <Leader>gp :Graphviz!<CR>
+
+
 

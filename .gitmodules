@@ -43,3 +43,9 @@
 [submodule "start/vim-repeat"]
 	path = start/vim-repeat
 	url = git@github.com:tpope/vim-repeat.git
+[submodule "start/graphviz.vim"]
+	path = start/graphviz.vim
+	url = git@github.com:liuchengxu/graphviz.vim.git
+[submodule "start/vim-markdown-toc"]
+	path = start/vim-markdown-toc
+	url = git@github.com:mzlogin/vim-markdown-toc.git
