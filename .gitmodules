@@ -49,3 +49,6 @@
 [submodule "start/vim-markdown-toc"]
 	path = start/vim-markdown-toc
 	url = git@github.com:mzlogin/vim-markdown-toc.git
+[submodule "start/vim-commentary"]
+	path = start/vim-commentary
+	url = https://github.com/tpope/vim-commentary.git
