@@ -18,7 +18,7 @@
 	url = https://github.com/vim-airline/vim-airline.git
 [submodule "start/vim-easy-align"]
 	path = start/vim-easy-align
-	url = git@github.com:junegunn/vim-easy-align.git
+	url = https://github.com/junegunn/vim-easy-align.git
 [submodule "start/vim-airline-themes"]
 	path = start/vim-airline-themes
 	url = https://github.com/vim-airline/vim-airline-themes.git
@@ -36,19 +36,19 @@
 	url = https://github.com/cespare/vim-toml.git
 [submodule "start/vim-surround"]
 	path = start/vim-surround
-	url = git@github.com:tpope/vim-surround.git
+	url = https://github.com/tpope/vim-surround.git
 [submodule "start/typescript-vim"]
 	path = start/typescript-vim
-	url = git@github.com:leafgarland/typescript-vim.git
+	url = https://github.com/leafgarland/typescript-vim.git
 [submodule "start/vim-repeat"]
 	path = start/vim-repeat
-	url = git@github.com:tpope/vim-repeat.git
+	url = https://github.com/tpope/vim-repeat.git
 [submodule "start/graphviz.vim"]
 	path = start/graphviz.vim
-	url = git@github.com:liuchengxu/graphviz.vim.git
+	url = https://github.com/liuchengxu/graphviz.vim.git
 [submodule "start/vim-markdown-toc"]
 	path = start/vim-markdown-toc
-	url = git@github.com:mzlogin/vim-markdown-toc.git
+	url = https://github.com/mzlogin/vim-markdown-toc.git
 [submodule "start/vim-commentary"]
 	path = start/vim-commentary
 	url = https://github.com/tpope/vim-commentary.git
