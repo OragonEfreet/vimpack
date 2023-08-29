@@ -22,9 +22,6 @@
 [submodule "start/vim-airline-themes"]
 	path = start/vim-airline-themes
 	url = https://github.com/vim-airline/vim-airline-themes.git
-[submodule "start/dracula"]
-	path = start/dracula
-	url = https://github.com/dracula/vim.git
 [submodule "start/vim-sensible"]
 	path = start/vim-sensible
 	url = https://github.com/tpope/vim-sensible.git
@@ -52,3 +49,6 @@
 [submodule "start/vim-commentary"]
 	path = start/vim-commentary
 	url = https://github.com/tpope/vim-commentary.git
+[submodule "start/catppuccin"]
+	path = start/catppuccin
+	url = git@github.com:catppuccin/vim.git
