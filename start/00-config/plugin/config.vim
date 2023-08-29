@@ -116,11 +116,16 @@ xmap <Leader>a <Plug>(EasyAlign)
 nmap <Leader>a <Plug>(EasyAlign)
 
 
-" Dracula
-packadd! dracula
-colorscheme dracula
-set background=dark    " Setting dark mode 
-let g:airline_theme='dracula'
+" Theme
+if exists('$VIM_COLOR_SCHEME') && $COLOR_SCHEME =='dark'
+        set background=dark
+        colorscheme catppuccin_frappe 
+        let g:airline_theme='catppuccin_frappe'
+else
+        set background=light
+        colorscheme catppuccin_latte 
+        let g:airline_theme='catppuccin_latte'
+endif
 
 " Python Syntax
 let g:python_highlight_all = 1
