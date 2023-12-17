@@ -34,12 +34,15 @@ set formatoptions=cqn1
 set noshiftround
 
 augroup FileTypeSpecificAutocommands
+    autocmd FileType c setlocal tabstop=4 softtabstop=4 shiftwidth=4
+    autocmd FileType cpp setlocal tabstop=4 softtabstop=4 shiftwidth=4
+    autocmd FileType html setlocal syntax=xml tabstop=2 softtabstop=2 shiftwidth=2
     autocmd FileType javascript setlocal syntax=typescript tabstop=2 softtabstop=2 shiftwidth=2
     autocmd FileType json setlocal tabstop=2 softtabstop=2 shiftwidth=2
-    autocmd FileType html setlocal syntax=xml tabstop=2 softtabstop=2 shiftwidth=2
-    autocmd FileType typescript setlocal tabstop=2 softtabstop=2 shiftwidth=2
     autocmd FileType rust setlocal tabstop=4 softtabstop=4 shiftwidth=4
+    autocmd FileType typescript setlocal tabstop=2 softtabstop=2 shiftwidth=2
 augroup END
+
 
 
 " Bindings
@@ -88,7 +91,7 @@ call NERDTreeHighlightFile('conf', 'yellow', 'none', 'yellow', '#151515')
 call NERDTreeHighlightFile('json', 'yellow', 'none', 'yellow', '#151515')
 
 " ALE
-let g:ale_linters = {'rust': ['analyzer']}
+let g:ale_linters = {'rust': ['analyzer'], 'c': ['null'], 'cpp': ['null'], }
 let g:ale_fixers = {'rust': ['rustfmt']}
 let g:rustfmt_autosave = 1
 let g:ale_completion_enabled = 1
@@ -117,14 +120,13 @@ nmap <Leader>a <Plug>(EasyAlign)
 
 
 " Theme
-if exists('$VIM_COLOR_SCHEME') && $COLOR_SCHEME =='dark'
+set background=light
+colorscheme catppuccin_latte 
+let g:airline_theme='catppuccin_latte'
+if exists('$VIM_COLOR_SCHEME') && $VIM_COLOR_SCHEME =='dark'
         set background=dark
         colorscheme catppuccin_frappe 
         let g:airline_theme='catppuccin_frappe'
-else
-        set background=light
-        colorscheme catppuccin_latte 
-        let g:airline_theme='catppuccin_latte'
 endif
 
 " Python Syntax
