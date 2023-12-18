@@ -120,13 +120,13 @@ nmap <Leader>a <Plug>(EasyAlign)
 
 
 " Theme
-set background=light
-colorscheme catppuccin_latte 
-let g:airline_theme='catppuccin_latte'
+set background=dark
+colorscheme catppuccin_frappe 
+let g:airline_theme='catppuccin_frappe'
 if exists('$VIM_COLOR_SCHEME') && $VIM_COLOR_SCHEME =='dark'
-        set background=dark
-        colorscheme catppuccin_frappe 
-        let g:airline_theme='catppuccin_frappe'
+        set background=light
+        colorscheme catppuccin_latte 
+        let g:airline_theme='catppuccin_latte'
 endif
 
 " Python Syntax
