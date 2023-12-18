@@ -4,15 +4,6 @@
 [submodule "start/fzf.vim"]
 	path = start/fzf.vim
 	url = https://github.com/junegunn/fzf.vim.git
-[submodule "start/nerdtree"]
-	path = start/nerdtree
-	url = https://github.com/preservim/nerdtree.git
-[submodule "start/ale"]
-	path = start/ale
-	url = https://github.com/dense-analysis/ale.git
-[submodule "start/rust.vim"]
-	path = start/rust.vim
-	url = https://github.com/rust-lang/rust.vim.git
 [submodule "start/vim-airline"]
 	path = start/vim-airline
 	url = https://github.com/vim-airline/vim-airline.git
@@ -34,18 +25,9 @@
 [submodule "start/vim-surround"]
 	path = start/vim-surround
 	url = https://github.com/tpope/vim-surround.git
-[submodule "start/typescript-vim"]
-	path = start/typescript-vim
-	url = https://github.com/leafgarland/typescript-vim.git
 [submodule "start/vim-repeat"]
 	path = start/vim-repeat
 	url = https://github.com/tpope/vim-repeat.git
-[submodule "start/graphviz.vim"]
-	path = start/graphviz.vim
-	url = https://github.com/liuchengxu/graphviz.vim.git
-[submodule "start/vim-markdown-toc"]
-	path = start/vim-markdown-toc
-	url = https://github.com/mzlogin/vim-markdown-toc.git
 [submodule "start/vim-commentary"]
 	path = start/vim-commentary
 	url = https://github.com/tpope/vim-commentary.git
