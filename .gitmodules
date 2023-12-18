@@ -36,3 +36,6 @@
 	url = https://github.com/catppuccin/vim.git 
 
 
+[submodule "YouCompleteMe"]
+	path = YouCompleteMe
+	url = https://github.com/ycm-core/YouCompleteMe.git
